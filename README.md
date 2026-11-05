@@ -4,7 +4,9 @@ Documented cloud security investigations, built in a live Azure tenant
 (Mad Hat Labs, a multi-user training environment).
 
 Target role: SOC Analyst / Security Analyst
+
 Currently: Student @ IUP | Indiana / Remote
+
 Contact: Favian.a.Gonzalez@outlook.com · linkedin.com/in/favian--gonzalez/
 
 ## Investigations
