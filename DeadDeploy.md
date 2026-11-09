@@ -46,3 +46,4 @@ To the intern I would suggest reading over and understanding Azure Naming Conven
 * How to Investigate and navigate through Resource Groups and individual resources
 * The importance of having the proper Parameter Values in place
 * If I were to put myself in the interns shoes, I would ensure Compliance to the Naming Convention and I would make sure this stays true to Deployment Documentation.
+* Overall, things could have been worse. And wait stick with me here, because imagine the Parameter Value was set to 'Disabled', the Policy would have not raised a "Non-Compliant", it would have just been allowed until seen throughout all the Resources Groups. Having the default Parameter Value set to 'Deny' would have been best case scenario, having the Parameter Value set to 'Disabled' would have been worst case Scenario.
