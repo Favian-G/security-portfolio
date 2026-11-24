@@ -1,7 +1,7 @@
 # Investigating a OAuth Consent-Phishing Attack
 
 ## Scenario
-Someone got access into the Mad Hat Labs Azure Tenant. I was tasked to investigate a Five-Stage OAuth consent-phishing Kill Chain.
+Someone got access into the Mad Hat Labs Azure Tenant. I was tasked to investigate a Five-Stage OAuth Consent Phishing Kill Chain.
 
 ## Environment
 Live multi-user Azure training tenant, with Reader access
