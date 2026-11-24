@@ -24,7 +24,7 @@ Live multi-user Azure training tenant, with Reader access
 You see when attackers try traditional phishing they run into compliance, location rules, and MFA. However when it comes to Consent phishing it takes a different approach, because the attacker is now authenticated on the victims trusted device. Now OAuth2PermissionGrant is not removed by a password reset and MFA is not in the way.
 
 ## What broke / what surprised me:
-I was incredible surprised that any standard user can register an app by default. Owning an app registration is an unlogged privilege path that Global Admins miss while conducting reviews. 
+I was incredibly surprised that any standard user can register an app by default. Owning an app registration is an unlogged privilege path that Global Admins miss while conducting reviews. 
 
 ## Findings and recommendations:
 The client token should be revoked | the rogue service principal needs to be removed from Owners | deletion of exposed API scope | revoke the OAuth2PermissionGrant | the attackers redirect URI needs to be removed | reduce the Graph application permissions | reconfigure default user app registration | start auditing every app registration's Owners list | turn on alerts on new client secrets and new redirect URIs.
