@@ -18,7 +18,7 @@ Live multi-user Azure training tenant, with Reader access
 5. **LOOT** The only thing left for the attack to do with full control of the rouge app is to set up a way to collect tokens from real users in the tenant by manipulating the redirect URI that every sign in declares on the Authentication blade.
    
 ## Why this path exists:
-You see when attackers try traditional phishing they run into compliance, location rules, and MFA. However when it comes to Consent phishing it takes a different approach because the attacker is now authenticated on the victims trusted device. Now OAuth2PermissionGrant is not removed by a password reset and MFA is not in the way.
+You see when attackers try traditional phishing they run into compliance, location rules, and MFA. However when it comes to Consent phishing it takes a different approach, because the attacker is now authenticated on the victims trusted device. Now OAuth2PermissionGrant is not removed by a password reset and MFA is not in the way.
 
 ## Findings and recommendations
 
